@@ -15,7 +15,7 @@ The project is responsive (breakpoint is 600px) and tested in Chrome and Firefox
 React, React Router. No CSS preprocessors used.
 
 ## Project structure
-assets: *css* folder contains color constants and common css styles (font sizes, spacing, etc); *icons* and *images* contain .svg and .png files respectively; data.js is a source of dummy data used by components.
+assets: *css* folder contains color constants and common css styles (font sizes, spacing, etc); *icons* and *images* contain .svg and .png files respectively; *data.js* is a source of dummy data used by components.
 
 components: contain all reusable UI components, each component comes with its own css, BEM naming principles are used for class names.
 
