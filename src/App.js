@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
 import Home from './pages/home';
@@ -12,12 +12,13 @@ function App() {
                 <NavBar />
                 <div className="App__content">
                     <Switch>
-                        <Route exact path="/">
+                        <Route exact path="/home">
                             <Home />
                         </Route>
                         <Route path="/banking">
                             <Banking />
                         </Route>
+                        <Redirect from="/" to="/home" />
                     </Switch>
                 </div>
                 <Footer />

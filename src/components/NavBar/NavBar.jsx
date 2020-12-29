@@ -16,7 +16,7 @@ export default () => {
     };
 
     const menuItems = [
-        { label: 'Home', icon: <HomeIcon />, link: '/' },
+        { label: 'Home', icon: <HomeIcon />, link: '/home' },
         { label: 'Everyday banking', icon: <WalletIcon />, link: '/banking' },
     ];
 
