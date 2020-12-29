@@ -1,0 +1,31 @@
+.block {
+    background-color: rgb(var(--app-light-color));
+    margin-bottom: 8px;
+}
+
+.block__header {
+    padding: 12px;
+    color: white;
+    font-weight: 800;
+}
+
+.block__triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 14px 14px 0 14px;
+    border-color: transparent;
+    position: relative;
+    top: -1px;
+    left: 20px;
+}
+
+.block__content {
+    padding: 8px;
+}
+
+@media only screen and (min-width: 600px) {
+    .block:not(:last-of-type) {
+        margin-right: 16px;
+    }
+}

@@ -1,0 +1,14 @@
+.footer {
+    background-color: rgb(var(--app-lightgray-color));
+    color: rgb(var(--app-brown-color));
+}
+
+.footer__content {
+    padding: 12px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.footer__socialMediaLinks > a {
+    margin-right: 12px;
+}

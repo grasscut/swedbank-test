@@ -1,0 +1,33 @@
+.loanForm__total {
+    margin-top: 24px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+@media only screen and (min-width: 600px) {
+    .loanForm {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .loanForm__fields {
+        flex: 1;
+        padding-right: 16px;
+    }
+
+    .loanForm__fields > div {
+        max-width: 400px;
+    }
+
+    .loanForm__submit {
+        flex: .5;
+        border-left: 1px solid rgb(var(--app-lightgray-color));
+        padding-left: 12px;
+    }
+
+    .loanForm__total {
+        border-bottom: 1px solid rgb(var(--app-lightgray-color));
+        padding-bottom: 8px;
+    }
+}

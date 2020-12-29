@@ -1,0 +1,12 @@
+.table {
+    width: 100%;
+}
+
+.table__header {
+    border: 0;
+    background-color: rgba(var(--app-secondary-color), .2);
+}
+
+.table__cell {
+    border-bottom: 1px solid rgb(var(--app-light-color));
+}

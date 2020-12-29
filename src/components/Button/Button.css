@@ -1,0 +1,29 @@
+.button {
+    width: 100%;
+    height: 32px;
+    color: #ffffff;
+    box-shadow: none;
+    border: 0;
+    border-radius: 3px;
+    padding: 8px 12px;
+    font-weight: 600;
+}
+
+.button--default {
+    background-color: rgb(var(--app-secondary-color));
+}
+
+.button--primary {
+    background-color: rgb(var(--app-primary-color));
+}
+
+@media only screen and (min-width: 600px) {
+    .button {
+        width: auto;
+        margin-right: 8px;
+    }
+
+    .button:last-of-type {
+        margin-right: 0;
+    }
+}

@@ -7,7 +7,30 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  color: unset;
+}
+
+p, h1, h2, h3, h4 {
+  margin: 0;
+}
+
+h1, h2, h3, h4 {
+  display: inline-block;
+}
+
+h1 {
+  margin-bottom: 8px;
+}
+
+form .sliderGroup {
+  margin-bottom: 8px;
+}
+
+form .button {
+  margin-top: 4px;
+}
+
+form .button:first-of-type {
+  margin-top: 12px;
 }

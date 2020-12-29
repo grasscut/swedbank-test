@@ -1,0 +1,61 @@
+.inputFieldGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputFieldGroup--error .inputFieldGroup__field {
+    border-color: red;
+}
+
+.inputFieldGroup__label {
+    font-size: 14px;
+    color: dimgray;
+    margin-bottom: 4px;
+}
+
+.inputFieldGroup__fieldWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputFieldGroup__field {
+    height: 32px;
+    border: 1px solid lightseagreen;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+select.inputFieldGroup__field {
+    background-color: rgb(var(--app-cyan-color));
+}
+
+.inputFieldGroup__field:focus {
+    outline-color: rgb(var(--app-primary-color));
+}
+
+.inputFieldGroup__errorMsg {
+    color: red;
+    margin-left: 8px;
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+
+@media only screen and (min-width: 600px) {
+    .inputFieldGroup {
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+    .inputFieldGroup__label {
+        width: 120px;
+        margin-right: 8px;
+        margin-bottom: 0;
+        text-align: right;
+    }
+
+    .inputFieldGroup__fieldWrapper {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+}

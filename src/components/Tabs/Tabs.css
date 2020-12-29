@@ -1,0 +1,15 @@
+.tabs__header > div {
+    display: inline-block;
+    padding: 16px;
+    cursor: pointer;
+}
+
+.tabs__header > div.active {
+    background-color: #ffffff;
+}
+
+.tabs__content {
+    background-color: #ffffff;
+    padding: 16px;
+    overflow: auto;
+}
